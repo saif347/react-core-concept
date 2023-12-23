@@ -1,0 +1,18 @@
+.student{
+    border: 2px solid violet;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.students{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.box{
+    border: 1px solid purple;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
