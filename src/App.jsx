@@ -3,12 +3,14 @@ import './stu.css'
 import Singers from './singers'
 import Counter from './counter'
 import Users from './users'
+import Countries from './component/countries'
 
 function App() {
 
   return (
     <>
      <h1>React core concept</h1>
+     <Countries></Countries>
      <Users></Users>
      <Counter></Counter>
      <Students></Students>
